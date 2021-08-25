@@ -12,7 +12,7 @@ cStart = clock;
 %Add relevant 'MCMC' subfolders to the path
 me = mfilename;                                                 %what is my filename
 pathstr = fileparts(fileparts(which(me)));                      %get location of 'BCImodel' folder
-addpath(genpath([pathstr filesep 'eissample_lite_DM2']));         
+addpath(genpath([pathstr filesep 'eissample_DM']));         
 addpath(genpath([pathstr filesep 'vbmc']));                     %Necessary for "VPbasedStepOut"
 addpath(genpath([pathstr filesep 'psisloo_DM']));         
 addpath(genpath([pathstr filesep 'gofit']));                    %Goodness-of-fit based on PSISLOO
