@@ -238,6 +238,7 @@ BCIfitResults.settings.BADS = 0;
 BCIfitResults.settings.VBMC = 0; 
 BCIfitResults.settings.MCMC = 1; 
 BCIfitResults.settings.Display = 0; 
+BCIfitResults.parallel.MCMC = 0; 
 
 %Continue an old non-converged MCMC run or start a new run with new initializations?  
 if isfield(BCIfitResults,'MCMC')
