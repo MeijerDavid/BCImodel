@@ -5,7 +5,7 @@ Fit the Bayesian Causal Inference model (Körding, Beierholm, Ma, Quartz, Tenenb
 
 This fitting function has been developed in order to be flexible with respect to the number of parameters that one wants to fit and to share parameters across experimental conditions. 
 
-Please ensure that you download the following toolboxes and copy them into their respective folders: 'bads', 'gofit', 'vbmc', 'psisloo_DM', 'eissample_lite_DM2'.
+Please ensure that you download the following toolboxes and copy them into their respective folders: 'bads', 'gofit', 'vbmc', 'eissample_DM'.
 References and github links can be found in the readme.txt files in the toolbox folders.
 
 For detailed explanations of the BCImodel options and settings please see "BCImodel.m"
