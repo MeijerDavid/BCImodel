@@ -57,6 +57,7 @@ function pVec = numIntegrAndInterp(xMat,pMat,xVec,interpDim,precisionFactor,xVec
 %meaning that xVec is assumed to have irregular intervals). 
 
 %Set Defaults
+
 if nargin < 4
     interpDim = 1;              %Direction of binning and interpolation on xMat and pMat
 end                            
